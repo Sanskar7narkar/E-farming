@@ -26,6 +26,7 @@ public class Typewritter extends androidx.appcompat.widget.AppCompatTextView {
     };
    public void animateText(CharSequence myTxt){
        Mytext = myTxt;
+
        myindex=0;
 
        setText("");
