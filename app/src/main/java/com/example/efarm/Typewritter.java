@@ -8,7 +8,7 @@ import androidx.annotation.Nullable;
 public class Typewritter extends androidx.appcompat.widget.AppCompatTextView {
     private CharSequence Mytext;
     private int myindex;
-    private long mydelay=150;
+    private long mydelay=100;
 
     public Typewritter(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
